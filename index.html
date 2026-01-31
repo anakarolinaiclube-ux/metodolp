@@ -225,7 +225,13 @@
 
         /* Hero Content */
         .hero-content h1 { font-size: 3rem; line-height: 1.1; color: var(--bg-dark); margin-bottom: 20px; }
-        .rating { color: #f59e0b; font-size: 1rem; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+        
+        /* --- CORREÇÃO DAS ESTRELAS AMARELAS --- */
+        .rating { margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+        
+        /* Força a cor amarela especificamente nos ícones */
+        .rating i { color: #FFD700; font-size: 1rem; } 
+        
         .rating span { color: var(--text-light); font-size: 0.9rem; font-weight: 500; font-family: var(--font-sans); }
 
         /* PREÇO E PAGAMENTO ÚNICO */
@@ -367,6 +373,7 @@
             <!-- Copy de Vendas -->
             <div class="hero-content">
                 <div class="rating">
+                    <!-- Ícones com cor amarela forçada pelo CSS -->
                     <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                     <span>(5.300+ Alunos Livres)</span>
                 </div>
@@ -532,7 +539,7 @@
             <div class="review-grid">
                 <!-- Depoimento 1: Carlos M. -->
                 <div class="review-card">
-                    <div style="color: #f59e0b; font-size: 0.8rem; margin-bottom: 15px;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <div style="color: #FFD700; font-size: 0.8rem; margin-bottom: 15px;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                     <p style="font-style: italic; opacity: 0.9;">"Eu não achei que iria dar certo. Mas o áudio me fez esquecer de fumar. Simplesmente esqueci. Surreal."</p>
                     <div class="user-info">
                         <div class="avatar">CM</div>
@@ -542,7 +549,7 @@
                 
                 <!-- Depoimento 2: Juliana S. -->
                 <div class="review-card">
-                    <div style="color: #f59e0b; font-size: 0.8rem; margin-bottom: 15px;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <div style="color: #FFD700; font-size: 0.8rem; margin-bottom: 15px;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                     <p style="font-style: italic; opacity: 0.9;">"Meu medo era engordar. O script focou na ansiedade e eu até emagreci 2kg pois tenho mais fôlego para caminhar."</p>
                     <div class="user-info">
                         <div class="avatar">JS</div>
@@ -552,7 +559,7 @@
 
                 <!-- Depoimento 3: Ricardo J. -->
                 <div class="review-card">
-                    <div style="color: #f59e0b; font-size: 0.8rem; margin-bottom: 15px;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <div style="color: #FFD700; font-size: 0.8rem; margin-bottom: 15px;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                     <p style="font-style: italic; opacity: 0.9;">"Coloco o fone antes de dormir. O áudio me acalma e acordo sem aquela tosse matinal. Recomendo demais."</p>
                     <div class="user-info">
                         <div class="avatar">RJ</div>
